@@ -44,3 +44,11 @@ let negvalue = -value
 let getCounter = 100
 ++getCounter
 
+y = ++getCounter
+x = getCounter++
+
+let detect = x==y;
+console.log(detect);
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
