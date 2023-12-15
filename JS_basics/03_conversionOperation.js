@@ -28,6 +28,19 @@ let isLoggedinbool = Boolean(isLoggedin)
 let somenumber = 33
 let stringnumber = String(somenumber)
 
-console.log(stringnumber);
-console.log(typeof stringnumber)
-//
+//console.log(stringnumber);
+//console.log(typeof stringnumber)
+
+//8888888888 NOW WE STUDY OPERATIONS  88888888888888888888
+
+let value = 10
+let negvalue = -value
+//console.log(negvalue);
+
+//console.log([2**4,2/2,2%2,2+3,3-2,3*4]);
+
+//console.log([1 + "2",1+2+"3",+true,1+2/2*4]);
+
+let getCounter = 100
+++getCounter
+
