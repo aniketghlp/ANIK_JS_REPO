@@ -8,4 +8,3 @@ Array , Object , functions
 
 //JS  is dynamic typed language for example we donot need to define variable type 
 // const number = 11  we donot need to define const number = int(11) or float(11) hence it is a dynamic language.
-//
