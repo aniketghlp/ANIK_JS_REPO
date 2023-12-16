@@ -20,7 +20,7 @@ let newid = Symbol("123")
 
 let bignumber = 23545875558855556454655475554754557657n
 
-console.log([id==newid]); // Symbols are always unique even if they have same values
+//console.log([id==newid]); // Symbols are always unique even if they have same values
 
 //Arrays, Objects, Functions
 //Array --> datatype = object
@@ -36,4 +36,26 @@ let myFunction= function(){
     console.log("Hello Java SCRIPT");
 }
 
-console.log(typeof myobj);
+//console.log(typeof myobj);
+
+
+//////********************************************** MEMORY **************************************************************************/
+/* STACK(PRIMITIVE) you get a copy  , HEAP (NON_primitive) yot get refrence address
+
+*/
+//STACK 
+let accountnumber1 = 1234567
+let accountnumber2 = accountnumber1
+accountnumber2 = 2222222
+//console.log([accountnumber1,accountnumber2]);
+
+//Heap
+
+let user1 = {
+    name:"Userone",
+    id:123456,
+}
+
+let user2 = user1
+user2.name ="Aniket"
+console.log([user1.name,user2.name]); // Since no copy is created in heap any changes in user2 will affect user1 and vice versa

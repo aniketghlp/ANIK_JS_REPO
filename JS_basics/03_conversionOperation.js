@@ -49,7 +49,9 @@ y = ++getCounter
 x = getCounter++
 
 let detect = x==y;
-console.log(detect);
+//console.log(detect);
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+
 
