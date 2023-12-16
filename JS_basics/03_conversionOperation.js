@@ -39,8 +39,9 @@ let negvalue = -value
 
 //console.log([2**4,2/2,2%2,2+3,3-2,3*4]);
 
-//console.log([1 + "2",1+2+"3",+true,1+2/2*4]);
+console.log([1 + "2",1+2+"3",+true,1+2/2*4]);
 
+//Understanding prefix and postfix operations 
 let getCounter = 100
 ++getCounter
 
