@@ -4,7 +4,7 @@ var accountPassword = "admin" // variable declaration using var , not used anymo
 accountCity = "Mumbai"
 let accountState // variable with no value is undefined.
 
-//accountID = 2 // not allowed 
+//accountID = 2 // not allowed since this is a constant
 
 accountEmail = "hc@ex.com"
 accountPassword = "23143"

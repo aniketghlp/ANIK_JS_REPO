@@ -17,7 +17,7 @@ let scoreNumber = Number(score)
 // undefined --> NaN
 // true --> 1 fasle --> 0
 
-let isLoggedin = "A"
+let isLoggedin = " "
 let isLoggedinbool = Boolean(isLoggedin)
 //console.log(isLoggedinbool); 
 
@@ -37,19 +37,19 @@ let value = 10
 let negvalue = -value
 //console.log(negvalue);
 
-//console.log([2**4,2/2,2%2,2+3,3-2,3*4]);
+//console.log([2**4,2/2,2%2,2+3,3-2,3*4]); //16,1,0,5,1,12
 
-console.log([1 + "2",1+2+"3",+true,1+2/2*4]);
+//console.log([1 + "2",1+2+"3",+false,1+2/2*4]);
 
 //Understanding prefix and postfix operations 
 let getCounter = 100
-++getCounter
+//++getCounter
 
 y = ++getCounter
 x = getCounter++
 
 let detect = x==y;
-//console.log(detect);
+console.log([detect,getCounter]);
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
 

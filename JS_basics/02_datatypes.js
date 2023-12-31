@@ -9,8 +9,8 @@ let isLoggedin = false // boolean dt
 
 let state = null
 
-//symbol ==> unique 
+// symbol ==> unique 
 
 // object 
 
-console.log(typeof undefined);
+console.log(typeof state);

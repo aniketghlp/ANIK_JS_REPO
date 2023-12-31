@@ -20,11 +20,12 @@ let newid = Symbol("123")
 
 let bignumber = 23545875558855556454655475554754557657n
 
-//console.log([id==newid]); // Symbols are always unique even if they have same values
+console.log([id==newid,typeof newid]); // Symbols are always unique even if they have same values
 
 //Arrays, Objects, Functions
 //Array --> datatype = object
-const heros = ["Shakiman","Cpt Vyom","Hatimtai"]
+const heros = ["Shaktiman","Cpt Vyom","Hatimtai"]
+console.log(heros[3]);  // output is undefined as at index 3 there is nothing defined.
 //Object --> datatype = object
 let myobj = {
     name:"Aniket",
@@ -36,7 +37,7 @@ let myFunction= function(){
     console.log("Hello Java SCRIPT");
 }
 
-//console.log(typeof myobj);
+console.log( myobj);
 
 
 //////********************************************** MEMORY **************************************************************************/
